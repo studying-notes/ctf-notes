@@ -39,4 +39,13 @@ draft: false  # 草稿
 ### 第一篇 CTF 之 Web
 
 - [第1章_常用工具安装及使用](docs/01_第一篇_CTF之Web/第1章_常用工具安装及使用.md)
+- [第2章_SQL注入攻击](docs/01_第一篇_CTF之Web/第2章_SQL注入攻击.md)
+- [第3章_跨站脚本攻击](docs/01_第一篇_CTF之Web/第3章_跨站脚本攻击.md)
+- [第4章_服务端请求伪造](docs/01_第一篇_CTF之Web/第4章_服务端请求伪造.md)
+
+## 第三方工具
+
+### Nmap
+
+- [第1章_Nmap基础学习](libraries/tripartite/nmap/第1章_Nmap基础学习.md)
 
