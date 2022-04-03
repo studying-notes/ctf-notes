@@ -48,4 +48,5 @@ draft: false  # 草稿
 ### Nmap
 
 - [第1章_Nmap基础学习](libraries/tripartite/nmap/第1章_Nmap基础学习.md)
+- [第2章_Nmap主机发现](libraries/tripartite/nmap/第2章_Nmap主机发现.md)
 
