@@ -52,4 +52,9 @@ draft: false  # 草稿
 - [第3章_探索网络](libraries/tripartite/nmap/第3章_探索网络.md)
 - [第4章_指纹识别与探测](libraries/tripartite/nmap/第4章_指纹识别与探测.md)
 - [第5章_伺机而动](libraries/tripartite/nmap/第5章_伺机而动.md)
+- [第6章_防火墙IDS逃逸](libraries/tripartite/nmap/第6章_防火墙IDS逃逸.md)
+- [第7章_信息搜集](libraries/tripartite/nmap/第7章_信息搜集.md)
+- [第8章_数据库渗透测试](libraries/tripartite/nmap/第8章_数据库渗透测试.md)
+- [第9章_渗透测试](libraries/tripartite/nmap/第9章_渗透测试.md)
+- [第11章_Nmap技巧](libraries/tripartite/nmap/第11章_Nmap技巧.md)
 
