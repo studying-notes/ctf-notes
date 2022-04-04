@@ -30,17 +30,17 @@ choco install nmap
 
 ## Nmap工作原理
 
-Nmap使用TCP/IP协议栈指纹准确地判断目标主机的操作系统类型，Nmap工作原理如表1.2所示。
+Nmap 使用 TCP/IP 协议栈指纹准确地判断目标主机的操作系统类型，Nmap 工作原理如表 1.2 所示。
 
 ![](../../../assets/images/libraries/nmap/表1.2_NmapTCPIP协议栈指纹.png)
 
-- T1: 发送 TCP 数据包（Flag=SYN）到开放 TCP 端口
-- T2: 发送一个空的 TCP 数据包到开放的 TCP 端口
-- T3: 发送 TCP 数据包（Flag=SYN,URG,PSH,FIN）到开放的 TCP 端口
-- T4: 发送TCP数据包（Flag=ACK）到开放的TCP端口
-- T5: 发送TCP数据包（Flag=SYN）到关闭的TCP端口
-- T6: 发送TCP数据包（Flag=ACK）到开放的TCP端口
-- T7: 发送TCP数据包（Flag=URG,PSH,FIN）到关闭的TCP端口
+- T1 : 发送 TCP 数据包（Flag = SYN）到开放 TCP 端口
+- T2 : 发送一个空的 TCP 数据包到开放的 TCP 端口
+- T3 : 发送 TCP 数据包（Flag = SYN,URG,PSH,FIN）到开放的 TCP 端口
+- T4 : 发送 TCP 数据包（Flag = ACK）到开放的 TCP 端口
+- T5 : 发送 TCP 数据包（Flag = SYN）到关闭的 TCP 端口
+- T6 : 发送 TCP 数据包（Flag = ACK）到开放的 TCP 端口
+- T7 : 发送 TCP 数据包（Flag = URG,PSH,FIN）到关闭的 TCP 端口
 
 如表1.2 所示，Nmap 对目标主机进行一系列的测试，利用测试结果建立相应目标主机的 Nmap 指纹，然后 Nmap 会对指纹进行匹配，最终输出相应的结果。
 
@@ -56,7 +56,7 @@ Nmap【空格】【选项|多选项|协议】【空格】【目标】
 
 ## 全面扫描
 
-Nmap全面扫描的选项是-A，它可以全面扫描指定IP或域名的所有端口及其目标系统信息等，这需要花费点时间等待Nmap的扫描。
+Nmap 全面扫描的选项是 -A，它可以全面扫描指定 IP 或域名的所有端口及其目标系统信息等，这需要花费点时间等待 Nmap 的扫描。
 
 ```shell
 $ root@root:~# nmap -A 192.168.4.171
